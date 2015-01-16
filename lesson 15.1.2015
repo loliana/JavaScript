@@ -1,0 +1,121 @@
+var x 
+undefined
+x
+undefined
+var x = 4
+undefined
+x
+4
+
+var x;
+undefined
+x=4
+4
+x
+4
+var x=4
+undefined
+2x
+SyntaxError:unexpected token illegal
+2*x
+8
+Math.sqrt(x)
+2
+x
+4
+Math.sqrt(x)=y
+VM789:2 Uncaught ReferenceError: Invalid left-hand side in assignment
+var y=x
+undefined
+x=19
+19
+x/2
+9.5
+x/2+4
+13.5
+
+expressions vs statements
+x/4 - expression
+4.75
+y=x/4 - statement
+4.75
+alert('i am spam from the 90s')
+undefined
+alert('i'm spam from the 90s')
+error
+alert("i'm spam from the 90s") - double quote or 
+alert('i\'m spam from the 90s')
+var firstName="Alex"
+undefined
+var lastName="Ramsdell";
+undefined
+var fullName=firstName+""+lastName
+undefined
+fullName
+"AlexRamsdell"
+"x"
+"x"
+x
+19
+"Obama"
+"Obama"
+Obama
+Uncaught ReferenceError: Obama is not defined
+console.log("I am a number plus itself"+(x+x))
+I am a number plus itself38
+console.log("I am a number plus itself:"+(x+x))
+I am a number plus itself:38
+console.log("9 is equal to 9:"+9==9)
+false
+9==9
+true
+9==90
+false
+9===9
+true
+9===90
+false
+"a"=9
+Uncaught ReferenceError: Invalid left-hand side in assignment
+"a"+9
+"a9"
+9=='9'
+true
+9==='9'
+false
+var num_a=9
+undefined
+var num_b=200
+undefined
+num_a<num_b
+true
+var firstName="Alex"
+undefined
+var lastName="Ramsdell"
+undefined
+var fullName=firstName+""+lastName
+undefined
+fullName
+"AlexRamsdell"
+fullName
+"AlexRamsdell"
+fullName.length
+12
+if (fullName.length>16) console.log('too long!')
+undefined
+if (fullName.length>16-1) console.log('too long!')
+undefined
+var max=16
+undefined
+
+if (fullName.length>max) {
+    console.log('too long!');
+    }
+else if (fullName.length===max) {
+    console.log('you are LUCKY');
+    }
+else {
+    console.log('ok,great');
+    }
+
+
